@@ -379,7 +379,7 @@ body {
     }
 
 
-.project-container, .skill-section, .details{
+.skill-section, .details{
     display: none;
 }
 
@@ -428,6 +428,12 @@ body {
     margin-top: 0;
 }
 
+.About div{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 .About p:hover {
     transform: none;
 }
@@ -437,12 +443,14 @@ body {
 }
 
 .About p {
-     display: block;
+    display: block;
     float: none;
+    font-size: 1rem;
     line-height: 2;
-    margin-right: 0;
-    margin-top: 0;
+    margin: 0;
+    width: auto;
     text-align: center;
+    box-shadow: none;
 }
 
 
@@ -450,5 +458,35 @@ body {
     margin-left: 15px;
     width: auto;
 }
+
+.project-container{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.project-items {
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.project-container h2{
+  padding: 0;
+}
+
+.project-item {
+  margin: 30px auto;
+  border-radius: inherit;
+}
+
+.project-item img{
+  object-fit: contain;
+    height: auto;
+    width: 100%;
+}
+}
+
+
 
   }
