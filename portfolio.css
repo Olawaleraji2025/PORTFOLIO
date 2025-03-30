@@ -359,26 +359,30 @@ body {
     box-shadow: 4px 4px 7px rgba(255, 255, 255, 0.397)f;
   }
   
-  @media (min-width: 320px) and (max-width: 428px){
+  @media (min-width: 320px) and (max-width: 700px){
       .Header{
-         
-          display: block;
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
       }
 
 
 
       .Header nav ul li{
-          margin: 0 8px;
+         
           font-size: 0.8rem;
-          white-space: nowrap;
+          margin: 0 10px;
+
       }
 
       .Header nav ul {
-        margin: 10px 20px;
+        margin: 10px 0;
         display: flex;
+        flex-wrap: wrap;
+          justify-content: center;
     }
 
-
+ 
 .Header a{
     display: block;
     height: auto;
@@ -386,12 +390,16 @@ body {
 }
 
 
-.Header nav ul li a:hover{
-   
-    height: auto;
-    width: auto;
-    transition: none;
-}
+.Header a:hover{
+  transform: none !important;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  padding: 5px;
+  transition: none;
+} 
+
 
 .info h1{
     display: block;
@@ -405,11 +413,22 @@ body {
     margin-left: 80px;
 }
 
+.Contents{
+  height: 100%;
+}
+
+
+.info-image{
+  width: 70%;
+
+}
+
 .info-image img {
     margin-top: 20px;
     margin-left: 0;
-    width: auto;
+    width: 100%;
     height: auto;
+    /* clip-path: none; */
 }
 
 .info-image img:hover{
@@ -451,19 +470,20 @@ body {
 
 
 .About img {
-    margin-left: 15px;
-    width: auto;
+  display: block;
+  width: auto;
+  margin: 0 auto;
 }
 
 .project-container{
   display: block;
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 .project-items {
-  flex-direction: column;
-  flex-wrap: wrap;
+  display: block;
+  width: auto;
   margin: 20px auto;
 }
 
@@ -474,6 +494,7 @@ body {
 }
 
 .project-item {
+  width: 90%;
   margin: 30px auto;
   border-radius: inherit;
 }
@@ -490,10 +511,16 @@ transition: none;
 }
 
 .skill-section{
+  margin-top: 30px;
   display: block;
   height: 100%;
   width: 100%;
 }
+
+.skill-section h2{
+  text-decoration-line: underline;
+}
+
 
 .Text{
   flex-direction: column;
@@ -509,6 +536,19 @@ transition: none;
 .css{
   margin: 30px auto;
 
+}
+
+.contact-links{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.contact-links i{
+  font-size: 30px;
+  margin: 0 20px;
 }
 
   }
