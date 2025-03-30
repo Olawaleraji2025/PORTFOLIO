@@ -379,10 +379,6 @@ body {
     }
 
 
-.skill-section, .details{
-    display: none;
-}
-
 .Header a{
     display: block;
     height: auto;
@@ -473,6 +469,8 @@ body {
 
 .project-container h2{
   padding: 0;
+  /* margin-top: 50px; */
+  /* border: solid red; */
 }
 
 .project-item {
@@ -485,8 +483,32 @@ body {
     height: auto;
     width: 100%;
 }
+
+.project-item:hover{
+  transform: none;
+transition: none;
 }
 
+.skill-section{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
 
+.Text{
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.html{
+  margin: auto;
+}
+
+.css{
+  margin: 30px auto;
+
+}
 
   }
