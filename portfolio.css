@@ -359,7 +359,10 @@ body {
     box-shadow: 4px 4px 7px rgba(255, 255, 255, 0.397)f;
   }
   
-  @media (min-width: 320px) and (max-width: 700px){
+  
+
+
+  @media (min-width: 320px) and (max-width: 900px){
       .Header{
         display: flex;
         justify-content: center;
@@ -420,7 +423,7 @@ body {
 
 .info-image{
   width: 70%;
-
+max-width: 50%;
 }
 
 .info-image img {
@@ -556,3 +559,55 @@ transition: none;
 }
 
   }
+
+  @media (min-width: 481px) and (max-width: 900px){
+    .Header a {
+      font-size: 1.2rem;
+  }
+
+  .info {
+    display: block;
+    /* flex-wrap: wrap; */
+    width: 300px;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.info h1 {
+  margin-left: 0; 
+  font-size: 2rem; 
+}
+
+.info h2 {
+  margin-left: 0; 
+}
+
+
+.info-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.info-image img{
+  max-width: 300px;
+}
+  
+.Contents {
+  height: 100%;
+  display: flex;
+  width: auto;
+  margin: 0 auto;
+}
+
+}
+
+@media (min-width: 750px) and (max-width: 900px){
+
+
+
+
+
+  
+}
