@@ -362,7 +362,7 @@ body {
   
 
 
-  @media (min-width: 320px) and (max-width: 900px){
+  @media (min-width: 320px) and (max-width: 1350px){
       .Header{
         display: flex;
         justify-content: center;
@@ -603,11 +603,136 @@ transition: none;
 
 }
 
-@media (min-width: 750px) and (max-width: 900px){
+@media (min-width: 700px) and (max-width: 900px){
 
+  .project-item{
+    display: block;
+    width: 500px;
+  }
 
+ 
 
-
-
-  
 }
+
+
+@media (min-width: 740px) and (max-width: 1049px){
+  .Text {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+  }
+  
+  .html {
+    width: 350px;
+    box-shadow: 0 0 4px 8px rgb(0, 0, 10, 0.4);
+  }
+  
+  .css {
+    width: 350px;
+    box-shadow: 0 0 4px 8px rgb(0, 0, 10, 0.4);
+  }
+}
+
+
+@media (min-width: 901px) and (max-width: 1350px){
+
+  .Header nav ul li {
+    font-size: 1.2rem;
+}
+
+.Contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+
+
+.info{
+  display: block;
+  margin: 0 0 10%;
+}
+
+.info h1{
+  font-size: 2.5rem;
+  margin-left: 0;
+}
+
+.info h2{
+  margin-left: 0;
+}
+
+
+.info-image {
+  margin-left: 50px;
+  margin-right: 0;
+}
+
+.info-image img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 0;
+  width: 300px;
+  clip-path: none;
+}
+
+
+.About {
+  flex-direction: row-reverse;
+}
+
+.About div {
+  margin: 0 50px 0 0;
+}
+
+.About h2 {
+  border-bottom: none;
+}
+
+.project-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-item {
+  width: 500px;
+}
+
+.image img{
+  width: 350px;
+}
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1050px) and (max-width: 1350px){
+  .Text {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+  }
+  
+  .html {
+    width: 500px;
+    box-shadow: 0 0 4px 8px rgb(0, 0, 10, 0.4);
+  }
+  
+  .css {
+    width: 500px;
+    box-shadow: 0 0 4px 8px rgb(0, 0, 10, 0.4);
+  }
+}
+
+
+
+
