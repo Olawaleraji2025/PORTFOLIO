@@ -63,12 +63,9 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 const skillProgress = document.querySelectorAll('.skill-progress');
 skillProgress.forEach(progress => {
     const attri = progress.getAttribute("data-width");
-     progress.style.width = `${attri}%`;
+    progress.style.width = `${attri}%`;
 })
 
-// (function () {
-//     skillProgress.forEach(progress => progress.style.width = `${widthProgress}%`)
-// })();
 
 
 // const observerOptions = {

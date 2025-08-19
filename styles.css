@@ -313,7 +313,11 @@ body {
     padding: 0.5rem 1rem;
     background: #f3f4f6;
     border-radius: 9999px;
-    font-size: 0.875rem;
+    font-size: 1rem;
+}
+
+#foodCard{
+    height: 480px;
 }
 
 /* Projects Section */
@@ -333,7 +337,7 @@ body {
     background: #fff;
     border-radius: 0.5rem;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 6px #1f2937;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -689,6 +693,12 @@ body {
 }
 
 @media (max-width: 480px) {
+
+    .nav-container{
+        flex-wrap: wrap;
+    }
+
+
     .hero-buttons {
         flex-direction: column;
     }
