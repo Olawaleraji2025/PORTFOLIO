@@ -694,7 +694,7 @@ body {
 
 @media (max-width: 480px) {
 
-    .nav-container{
+    .hero-content{
         flex-wrap: wrap;
     }
 
