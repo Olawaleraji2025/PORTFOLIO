@@ -700,7 +700,7 @@ body {
 
 
     .hero-buttons {
-        flex-direction: column;
+        display: inline;
     }
     
     .projects-grid,
