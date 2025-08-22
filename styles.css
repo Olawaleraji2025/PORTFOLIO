@@ -61,7 +61,7 @@ body {
 
 
 .fa-bars{
-    display: block;
+    display: none;
     background: none;
     border: none;
     font-size: 1.5rem;
@@ -735,4 +735,10 @@ body {
     #projectContainer{
     width: 400px;
 }
+}
+
+@media (min-width: 320px) and (max-width: 549px){
+    .fa-bars{
+        display: block;
+    }
 }
