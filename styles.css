@@ -60,12 +60,23 @@ body {
 }
 
 
-.menu-toggle {
+.fa-bars{
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.fa-x {
     display: none;
     background: none;
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+#x-icon{
+    display: none;
 }
 
 /* Hero Section */
@@ -702,7 +713,7 @@ body {
 }
 
 @media (min-width: 550px){
-    .menu-toggle{
+    .fa-bars, .fa-x{
         display: none;
     }
 
