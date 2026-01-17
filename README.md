@@ -27,26 +27,6 @@ A personal portfolio website showcasing my skills and projects as a frontend dev
 - **CSS3**: Styling and responsive design.
 - **JavaScript**: Interactive functionality and form validation.
 
-## Project Structure
-
-portfolio/
-├── index.html          # Main HTML file
-├── styles.css          # CSS stylesheets
-├── script.js           # JavaScript functionality
-├── Images/             # Image assets
-│   ├── Olawale picture.jpg
-│   ├── todo list img.PNG
-│   ├── calc hub img.PNG
-│   ├── bookManger img.PNG
-│   ├── guessTheNum img.PNG
-│   ├── healthcare img.PNG
-│   ├── fintech img.PNG
-│   ├── ecommerce img.PNG
-│   ├── manufacturing img.PNG
-│   ├── doordash img.PNG
-│   └── Trinity Landing page.PNG
-└── README.md           # This file
-
 
 ## Contact
 
