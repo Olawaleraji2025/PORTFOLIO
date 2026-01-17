@@ -371,13 +371,19 @@ body {
     margin-bottom: 1rem;
 }
 
-.project-tags span {
-    padding: 0.25rem 0.75rem;
-    background: #dbeafe;
-    color: #1e40af;
-    border-radius: 9999px;
-    font-size: 0.875rem;
+.fa-html5{
+    color: #f14309;
 }
+
+.fa-css3-alt{
+    color: #0664ac;
+}
+
+.fa-square-js{
+    color: #f0fa61;
+}
+
+
 
 .project-links {
     display: flex;
