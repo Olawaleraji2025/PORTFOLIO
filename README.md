@@ -1,6 +1,6 @@
 # Olawale's Portfolio
 
-A personal portfolio website showcasing my skills and projects as a frontend developer. This site highlights my expertise in HTML, CSS, and JavaScript, featuring various web development projects and interactive elements.
+A personal portfolio website showcasing my skills and projects as a frontend developer. This portfolio highlights my expertise in HTML, CSS, and JavaScript, featuring various web development projects and interactive elements.
 
 ## Features
 
@@ -17,7 +17,6 @@ A personal portfolio website showcasing my skills and projects as a frontend dev
   - Ecommerce Landing Page
   - Manufacturing-Industry Landing Page
   - Food-Delivery Landing Page
-  - A Grocery Store (Trinity) - In Progress
 - **Contact**: Contact form, email, and social media links.
 - **Responsive Design**: Optimized for various screen sizes.
 
