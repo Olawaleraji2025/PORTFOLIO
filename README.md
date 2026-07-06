@@ -9,14 +9,8 @@ A personal portfolio website showcasing my skills and projects as a frontend dev
 - **Skills**: Technical skills (HTML5, CSS3, JavaScript, Git, GitHub, VS Code) and soft skills (Problem Solving, Attention to Detail, Communication, Teamwork, Time Management).
 - **Projects**: Showcase of multiple projects including:
   - Todo List App
-  - Calculator Hub (with BMI and Age calculators)
   - Book Manager App
   - Guessing Game App
-  - Health-Care Landing Page
-  - Fintech Landing Page
-  - Ecommerce Landing Page
-  - Manufacturing-Industry Landing Page
-  - Food-Delivery Landing Page
 - **Contact**: Contact form, email, and social media links.
 - **Responsive Design**: Optimized for various screen sizes.
 
