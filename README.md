@@ -1,32 +1,63 @@
-# Olawale's Portfolio
+# Olawale Raji — Portfolio v2
 
-A personal portfolio website showcasing my skills and projects as a frontend developer. This portfolio highlights my expertise in HTML, CSS, and JavaScript, featuring various web development projects and interactive elements.
+A modern personal portfolio website built with React, Vite, and Tailwind CSS v4. This project showcases Olawale's work, technical stack, featured products, and a contact experience designed for recruiters, collaborators, and clients.
 
-## Features
+## Overview
 
-- **Hero Section**: Introduction with a call-to-action button.
-- **About Me**: Personal background and journey in web development.
-- **Skills**: Technical skills (HTML5, CSS3, JavaScript, Git, GitHub, VS Code) and soft skills (Problem Solving, Attention to Detail, Communication, Teamwork, Time Management).
-- **Projects**: Showcase of multiple projects including:
-  - Todo List App
-  - Book Manager App
-  - Guessing Game App
-- **Contact**: Contact form, email, and social media links.
-- **Responsive Design**: Optimized for various screen sizes.
+This portfolio presents:
+- a strong hero section and personal brand statement
+- an introduction about experience and approach
+- a tools/stack section highlighting frontend and backend capabilities
+- featured work and project cards with live demos and GitHub links
+- a responsive contact form with Supabase-powered submissions
+- graceful fallback behavior that opens the user's email app if Supabase isn't configured
 
-## Technologies Used
+The site is designed to feel polished, fast, and mobile-friendly while remaining easy to maintain and deploy.
 
-- **HTML5**: Semantic markup for structure.
-- **CSS3**: Styling and responsive design.
-- **JavaScript**: Interactive functionality and form validation.
+## Tech stack
+
+- React 19
+- Vite 8
+- Tailwind CSS v4
+- Supabase JavaScript client
+- Lucide React icons
+- Netlify / Vercel deployment ready
+
+## Key features
+
+- Responsive single-page portfolio layout
+- Fixed top navigation with mobile menu
+- Strong call-to-action sections for projects and hiring
+- Featured product highlight for Universal Market
+- Project gallery with external links to demos and source code
+- Contact form that stores messages in a Supabase table
+- Fallback to `mailto:` when the contact database is unavailable
+
+## Project structure
+
+- `src/App.jsx` — portfolio page layout and interactive UI
+- `src/data.js` — profile information, stack data, featured project, and project cards
+- `src/supabase.js` — Supabase client configuration
+- `supabase.sql` — database schema for the contact form
+- `.env.example` — environment variable template for Supabase
+- `vite.config.js` — Vite configuration with Tailwind integration
 
 
-## Contact
+## Portfolio content highlights
 
-- **Email**: olawalesodiq988@gmail.com
-- **WhatsApp**: [Olawale](https://wa.link/q2r0dz)
-- **GitHub**: [Olawaleraji2025](https://github.com/Olawaleraji2025)
-- **LinkedIn**: [Olawale Raji](https://linkedin.com/in/olawale-raji-aa7997209)
-- **Twitter**: [@OlawaleRAJII](https://x.com/OlawaleRAJII)
-- **CodePen**: [Olawale-Raji](https://codepen.io/Olawale-Raji)
+The site highlights:
+- Universal Market — a live marketplace project for verified pre-owned gadgets
+- multiple additional projects across business websites and simple web apps
+- a technical story centered around React, Tailwind, and full-stack product delivery
 
+## Links
+
+- Website: `https://universalmarket.ng/`
+- GitHub: `https://github.com/Olawaleraji2025`
+- LinkedIn: `https://linkedin.com/in/olawale-raji-aa7997209`
+- X (Twitter): `https://x.com/OlawaleRAJII`
+- Email: `olawalesodiq988@gmail.com`
+
+## Notes
+
+This project is a personal portfolio and marketing site intended to present Olawale's work clearly and professionally. It is easy to customize by editing the data file and visual styling to suit a different brand, role, or set of projects.
